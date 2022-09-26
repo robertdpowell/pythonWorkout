@@ -6,7 +6,7 @@ def run_pig():
        print (f'{string[1:]}{string[0]}ay')
 
 def run_pig_sentence():
-    sentence = input("give me a sentence")
+    sentence = input("please give me a sentence")
     output=[]
     for word in sentence.split():
         if word[0] in 'aeiou':
