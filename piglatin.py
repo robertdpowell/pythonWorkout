@@ -1,5 +1,5 @@
 def run_pig():
-   string = input("give me a word")
+   string = input("please give me a word")
    if string[0] in 'aeiou':
        print (f'{string}way')
    else:
